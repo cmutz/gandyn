@@ -9,7 +9,7 @@ class IfConfig( object ):
   def get_public_ip( self ):
     """Returns the current public IP address. Raises an exception if an issue occurs."""
     try:
-      url_page = 'http://ifconfig.me/ip'
+      url_page = 'http://ifconfig.co/ip'
       public_ip = None
 
       f = urllib.request.urlopen(url_page)
